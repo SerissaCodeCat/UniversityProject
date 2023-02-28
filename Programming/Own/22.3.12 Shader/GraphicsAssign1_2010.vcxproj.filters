@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GraphicsAssign1.cpp" />
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Common\CFatalException.cpp">
+      <Filter>Import\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Common\MSDefines.cpp">
+      <Filter>Import\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Common\Utility.cpp">
+      <Filter>Import\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\BaseMath.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CMatrix2x2.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CMatrix3x3.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CMatrix4x4.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CQuaternion.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CQuatTransform.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CVector2.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CVector3.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\CVector4.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\Math\MathIO.cpp">
+      <Filter>Import\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Import\CImportXFile.cpp">
+      <Filter>Import</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Model.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Common\CFatalException.h">
+      <Filter>Import\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Common\Error.h">
+      <Filter>Import\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Common\MSDefines.h">
+      <Filter>Import\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Common\Utility.h">
+      <Filter>Import\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\BaseMath.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CMatrix2x2.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CMatrix3x3.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CMatrix4x4.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CQuaternion.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CQuatTransform.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CVector2.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CVector3.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\CVector4.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\MathDX.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Math\MathIO.h">
+      <Filter>Import\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\CImportXFile.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\Colour.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Import\MeshData.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Import\Common\GenDefines.h">
+      <Filter>Import\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphicsAssign1.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Import">
+      <UniqueIdentifier>{cbf6d678-6719-4fd4-9b72-87c097463786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a484c9ed-95c4-4e68-9b42-1fbf4643b0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{afdf527b-d22b-4387-ad08-90de1b19f1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import\Common">
+      <UniqueIdentifier>{208395e1-3c26-47f9-a306-53f39385ca32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import\Math">
+      <UniqueIdentifier>{841dd093-c919-4c4d-a6f8-76905865a65c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="GraphicsAssign1.manifest">
+      <Filter>Resources</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GraphicsAssign1.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
